@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SomAI Night</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Bricolage+Grotesque:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-midnight text-snow font-body max-w-6xl mx-auto">
+    <!-- ========================================
+         1. HEADER
+         ======================================== -->
+    <header class="flex items-center justify-between mx-auto p-6">
+      <!-- Logo -->
+      <a href="#" class="font-heading text-2xl font-bold"
+        >SOM<span class="text-amber">AI</span></a
+      >
+
+      <!-- Navigation -->
+      <nav class="hidden md:flex gap-8 text-snow/70">
+        <a href="#about" class="hover:text-amber transition">About</a>
+        <a href="#speakers" class="hover:text-amber transition">Speakers</a>
+        <a href="#register" class="hover:text-amber transition">Join</a>
+      </nav>
+
+      <!-- Action -->
+      <a
+        href="#register"
+        class="bg-amber px-6 py-2 rounded-full text-midnight font-bold hover:bg-snow"
+      >
+        Register
+      </a>
+    </header>
+
+    <!-- ========================================
+         2. ABOUT (HERO)
+         ======================================== -->
+    <section
+      id="about"
+      class="flex flex-col text-center gap-6 items-center max-w-3xl mx-auto px-6 py-24"
+    >
+      <!-- Date -->
+      <p class="text-center border border-amber rounded-full px-4 py-1">
+        14 Nov 2026 · Oslo · 18:00
+      </p>
+
+      <!-- Headline -->
+      <h1 class="font-heading text-7xl font-extrabold">SomAI Night</h1>
+
+      <!-- Description -->
+      <p class="text-lg md:text-xl text-snow/70 leading-relaxed mt-6">
+        One night. The latest in AI. Built by Somalis, for Somalis. Talks,
+        demos, and the people shaping what comes next.
+      </p>
+    </section>
+
+    <!-- ========================================
+         3. SPEAKERS
+         ======================================== -->
+    <section id="speakers" class="px-6 py-20">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-center">
+        Meet the speakers
+      </h2>
+
+      <!-- Cards -->
+      <div class="flex gap-8 mt-8">
+        <!-- Speaker 1 -->
+        <div
+          class="flex border rounded-2xl p-8 bg-white/5 border-amber-950 flex-col gap-4 justify-center items-center"
+        >
+          <img
+            src="https://i.pravatar.cc/150?img=47"
+            class="h-28 w-28 rounded-full"
+            alt="Amina Hassan"
+          />
+          <h3>Amina Hassan</h3>
+          <p>ML Engineer</p>
+          <p class="text-snow/70">Building AI agents that actually work</p>
+        </div>
+
+        <!-- Speaker 2 -->
+        <div
+          class="flex border rounded-2xl p-8 bg-white/5 border-amber-950 flex-col gap-4 justify-center items-center"
+        >
+          <img
+            src="https://i.pravatar.cc/150?img=12"
+            class="h-28 w-28 rounded-full"
+            alt="Yusuf Omar"
+          />
+          <h3>Yusuf Omar</h3>
+          <p>AI Researcher</p>
+          <p class="text-snow/70">Teaching AI to speak Somali</p>
+        </div>
+
+        <!-- Speaker 3 -->
+        <div
+          class="flex border rounded-2xl p-8 bg-white/5 border-amber-950 flex-col gap-4 justify-center items-center"
+        >
+          <img
+            src="https://i.pravatar.cc/150?img=32"
+            class="h-28 w-28 rounded-full"
+            alt="Hodan Ali"
+          />
+          <h3>Hodan Ali</h3>
+          <p>Startup Founder</p>
+          <p class="text-snow/70">From idea to AI product in 30 days</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+         4. REGISTER
+         ======================================== -->
+    <section
+      id="register"
+      class="flex flex-col items-center gap-4 max-w-3xl mx-auto px-6 py-20 text-center"
+    >
+      <h2 class="font-heading text-3xl md:text-4xl font-bold">
+        Save your seat
+      </h2>
+      <p class="text-snow/70">Free entry. Limited seats. Don't miss it.</p>
+
+      <form class="flex flex-col md:flex-row gap-4 w-full mt-4">
+        <input
+          type="text"
+          placeholder="Your name"
+          class="flex-1 border border-white/10 focus:border-amber outline-none rounded-full px-5 py-3"
+        />
+        <input
+          type="email"
+          placeholder="Your email"
+          class="flex-1 border border-white/10 focus:border-amber outline-none rounded-full px-5 py-3"
+        />
+        <button
+          class="bg-amber hover:bg-snow text-midnight font-medium px-8 py-3 rounded-full transition"
+        >
+          Register
+        </button>
+      </form>
+    </section>
+
+    <!-- ========================================
+         5. FOOTER
+         ======================================== -->
+    <footer
+      class="flex flex-col md:flex-row justify-between items-center gap-4 max-w-6xl mx-auto border-t border-white/10 p-6 text-sm text-snow/50"
+    >
+      <p class="font-heading text-lg text-snow font-bold">SomAI</p>
+      <p>© 2026 · Built with Tailwind CSS</p>
+    </footer>
+  </body>
+</html>

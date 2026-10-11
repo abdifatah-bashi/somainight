@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #0b1026;
+  --color-snow: #f8fafc;
+  --color-amber: #fbbf24;
+
+  --font-heading: "Bricolage Grotesque", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
